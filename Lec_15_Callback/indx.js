@@ -58,3 +58,9 @@ console.log("Hii");
 //4. **Scalability**: As the number of asynchronous operations increases, the complexity grows exponentially, making it difficult to scale the application.
 
 // call back hell - nesting of callbacks which is hard to read and manage. It is also known as pyramid of doom.
+
+// promice is the solution to this problem. It allows you to write asynchronous code in a more synchronous manner, making it easier to read and maintain. Promises provide a cleaner way to handle asynchronous operations by chaining `.then()` methods and using `.catch()` for error handling, which helps avoid deep nesting and improves code clarity.
+
+// it is a alternate option to handel asynchronous operations. in a more manageable way. Promises represent a value that may be available now, or in the future, or never. They allow you to attach callbacks for success and failure cases, making it easier to handle asynchronous flows without falling into callback hell.
+
+// promise is an object which represnt eventual completion asynchronous task
